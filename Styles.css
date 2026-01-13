@@ -50,6 +50,20 @@ header button {
     transform: translateY(-5px);
 }
 
+.orange-button {
+    background-color: #FF6F00; /* Orange Thevenin */
+    color: white; /* Texte blanc */
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.orange-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
 .card img {
     width: 80px;
     height: 80px;
@@ -74,4 +88,11 @@ header button {
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.post-desc {
+    font-size: 0.9em;
+    color: #FFFFFFCC; /* un peu plus clair que le bleu foncé */
+    margin-top: 5px;
+    line-height: 1.2em;
 }
